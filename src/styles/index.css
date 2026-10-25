@@ -6,27 +6,20 @@
 @import './dialogs.css';
 @import './responsive.css';
 :root {
-    font-family: "DM Sans", sans-serif;
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #29364A;
-    background: #EAF3FC;
-    --page-background: #EAF3FC;
-    --text-color: #29364A;
-    --accent-green: #5379B8;
-    --accent-terracotta: #A18AD5;
-    --panel-background: #FFFFFF;
-    --border-color: #DCE7F2;
-    --muted-text: #77869B;
-    --soft-lavender: #F0EBFA;
-    --hover-background: #F3F7FD;
+    color: var(--text-color);
+    background: var(--page-background);
+}
+
+html {
+    min-width: 320px;
+    min-height: 100%;
+    background: var(--page-background);
 }
 
 body {
     min-width: 320px;
     min-height: 100vh;
     margin: 0;
+    color: var(--text-color);
     background: var(--page-background);
 }

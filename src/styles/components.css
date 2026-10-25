@@ -319,12 +319,6 @@
     background: rgba(255, 255, 255, 0.94);
 }
 
-.canvas-stage {
-    background: #E3EDF9;
-    border: 1px solid #D5E3F2;
-    border-radius: 18px;
-}
-
 .recent-art,
 .art-modal {
     background: #FFFFFF;
@@ -349,4 +343,44 @@ button:not(:disabled) {
 
 button:not(:disabled):hover {
     border-color: #C4D4ED;
+}
+
+
+/* Light pink area around the drawing grid */
+
+.board-wrap {
+    background-color: #e7f7fc !important;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+/* Actual pixel drawing sheet */
+
+.pixel-board {
+    background-color: #FFF7FA !important;
+    display: grid;
+    grid-template-columns: repeat(var(--grid-size), minmax(0, 1fr));
+    aspect-ratio: 1 / 1;
+    width: min(100%, calc(600px * var(--zoom, 1)));
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+/* Individual drawing pixels */
+
+.pixel-cell {
+    background-color: transparent;
+    min-width: 0;
+    min-height: 0;
+    box-sizing: border-box;
+}
+
+
+/* Grid lines */
+
+.pixel-board.with-grid .pixel-cell {
+    border-right: 1px solid #c4d7f3 !important;
+    border-bottom: 1px solid #c4d3f3 !important;
 }

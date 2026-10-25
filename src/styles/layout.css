@@ -203,7 +203,8 @@
 
 .canvas-area {
     min-width: 0;
-    padding: 30px clamp(20px, 3vw, 44px) 28px
+    padding: 30px clamp(20px, 3vw, 44px) 28px;
+    background-color: #EAF2FC;
 }
 
 .canvas-heading,
@@ -279,6 +280,9 @@
     margin-top: 26px
 }
 
+
+/* Light blue drawing paper */
+
 .canvas-paper {
     min-height: 410px;
     display: flex;
@@ -286,12 +290,12 @@
     justify-content: center;
     overflow: auto;
     padding: 28px;
-    background-color: #eeeadf;
-    background-image: radial-gradient(#d5d0c4 .8px, transparent .8px);
+    background-color: #ffffff;
+    background-image: radial-gradient(#C4DAF5 0.8px, transparent 0.8px);
     background-size: 17px 17px;
-    border: 1px solid #e1dccf;
+    border: 1px solid #C2D8F3;
     border-radius: 14px;
-    box-shadow: 0 3px 0 #e4dfd3;
+    box-shadow: 0 3px #C2D8F3;
 }
 
 .board-wrap {
@@ -464,8 +468,41 @@
     font-size: 11px
 }
 
+
+/* Whole app background — light pink */
+
 .app-shell {
-    min-height: 100vh;
-    background: radial-gradient( ellipse at 8% 5%, rgba(201, 184, 240, 0.22), transparent 32%), radial-gradient( ellipse at 92% 85%, rgba(174, 211, 244, 0.28), transparent 35%), #EAF2FC;
-    color: #29364A;
+    background: #e7f7fc!important;
+}
+
+
+/* Main drawing workspace */
+
+.canvas-area {
+    background: #e7f7fc!important;
+}
+
+
+/* Drawing paper */
+
+.canvas-paper {
+    background-color: #ffffff !important;
+    background-image: radial-gradient( #F3C4DC 0.8px, transparent 0.8px) !important;
+    border-color: #e7f7fc !important;
+    box-shadow: 0 3px#e7f7fc!important;
+}
+
+
+/* Side panels */
+
+.tool-panel,
+.right-panel {
+    background: #ffffff !important;
+}
+
+
+/* Header */
+
+.topbar {
+    background: rgba(255, 255, 255, 0.96) !important;
 }
