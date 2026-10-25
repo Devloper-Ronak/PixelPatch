@@ -85,6 +85,8 @@ The goal of PixelPatch is to make pixel-art creation approachable through an int
 - Custom canvas sizes
 - Additional color palettes
 - Improved mobile experience
+  
+🚀 **Live Demo:** [PixelPatch](https://pixel-patch-2h37.vercel.app/)
 
 ## 👨‍💻 Author
 
