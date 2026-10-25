@@ -1,0 +1,28 @@
+:root {
+    font-family: 'DM Sans', sans-serif;
+    color: #292c26;
+    background: #f6f3eb;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    --paper: #f6f3eb;
+    --paper-deep: #eee9dd;
+    --ink: #292c26;
+    --muted: #77796f;
+    --green: #426b57;
+    --green-dark: #304e3e;
+    --green-pale: #e7ebdf;
+    --terracotta: #d96c4e;
+    --line: #e1dccf;
+    --white: #fffdf8;
+    --mono: 'DM Mono', monospace;
+    --serif: 'Playfair Display', serif --page-background: #EAF3FC;
+    --text-color: #29364A;
+    --accent-green: #5379B8;
+    --accent-terracotta: #A18AD5;
+    --panel-background: #FFFFFF;
+    --border-color: #DCE7F2;
+    --muted-text: #77869B;
+    --soft-lavender: #F0EBFA;
+    --hover-background: #F3F7FD;
+}
