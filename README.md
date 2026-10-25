@@ -1,36 +1,97 @@
-# PixelPatch
+# 🎨 PixelPatch
 
-A React + Vite pixel-art editor with a warm paper-and-forest palette.
+### ✨ A little space to create pixel-perfect art.
 
-## Run locally
+PixelPatch is a browser-based pixel-art drawing application built with React. It gives users a simple, interactive canvas to create digital artwork, experiment with colors, and express their creativity.
 
-1. Install Node.js (LTS) if it is not already installed.
-2. Open this folder in VS Code.
-3. Open Terminal in the project folder and run:
+## 🌸 Features
+
+- 🖌️ **Interactive Drawing Canvas** — Create pixel art directly in your browser.
+- 🎨 **Color Selection** — Choose colors for your artwork.
+- 🧰 **Drawing Tools** — Use the available tools to draw and edit pixels.
+- 🧽 **Eraser Tool** — Remove unwanted pixels.
+- 💾 **Artwork Management** — Save or manage artwork if supported by the current implementation.
+- 📤 **Export Artwork** — Export your creation when you're ready to share it.
+- 💙 **Clean User Interface** — A soft, pastel-inspired design focused on usability.
+
+## 🛠️ Built With
+
+- **React.js** — Component-based user interface
+- **JavaScript** — Application logic and interactions
+- **HTML5** — Application structure
+- **CSS3** — Styling, layout, and responsive design
+- **Vite** — Development server and production build tool, if configured in this project
+
+## 🚀 Getting Started
+
+Follow these steps to run PixelPatch locally.
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/)
+- npm, included with Node.js
+- Git
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Devloper-Ronak/PixelPatch.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd PixelPatch
+   ```
+
+3. Install dependencies:
 
    ```bash
    npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
    npm run dev
    ```
 
-4. Open the local URL printed by Vite (usually http://localhost:5173).
+5. Open the local URL displayed in your terminal.
 
-## Features
+### Production Build
 
-- Pencil, eraser, flood fill, colour picker, line, rectangle, and circle tools
-- Built-in palette and custom colour picker
-- 8×8, 16×16, 24×24, and 32×32 canvases
-- Grid toggle, mirror drawing, horizontal/vertical flip, zoom, undo/redo
-- Save/open/delete artwork in browser localStorage
-- PNG export with configurable pixel scale and transparent/cream background
-- Keyboard shortcuts and responsive layout
+Check that the project builds successfully:
 
-## Project map
+```bash
+npm run build
+```
 
-- `src/App.jsx`: shared state and application wiring
-- `src/components/`: toolbar, board, palette/settings, gallery, dialogs
-- `src/hooks/useHistory.js`: undo/redo history
-- `src/utils/`: drawing algorithms, storage, constants
-- `src/styles/`: tokens, global styles, layout, components, dialogs, responsive rules
+If your project uses Vite, the production files are usually generated in the `dist` folder.
 
-Saved artwork is stored in this browser only; clearing browser site data may remove it.
+## 🖼️ Screenshots
+
+Screenshots coming soon! Add images of the finished application here.
+
+## 🎯 Project Goal
+
+The goal of PixelPatch is to make pixel-art creation approachable through an interactive interface while providing practical experience with React components, application state, event handling, and CSS-based UI design.
+
+## 🔮 Future Improvements
+
+- More drawing and shape tools
+- Undo and redo functionality
+- Custom canvas sizes
+- Additional color palettes
+- Improved mobile experience
+
+## 👨‍💻 Author
+
+**Ronak Khan**
+
+- GitHub: [@Devloper-Ronak](https://github.com/Devloper-Ronak)
+
+---
+
+Made with 💙 and creativity.
